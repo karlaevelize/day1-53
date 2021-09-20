@@ -1,24 +1,21 @@
 function sayHello(){
   console.log("Hello")
 }
-
 // console.log(myHello)
 
-//arrow functions
+//arrow function
 const myArrowFunction = () => {
   console.log("Hello from Arrow Function")
-   console.log("Hello")
 }
 
 // myArrowFunction()
-// console.log(myArrowFunction())
 
 function sayHelloToSomeone(name){
   return `Hello ${name}` //allows you to combine string + variable
 }
 
-const saveValue = sayHelloToSomeone("Leah")
-// console.log(saveValue)
+const saveReturnedValue = sayHelloToSomeone("Leah") //we can assign the returned value to a variable
+// console.log(saveReturnedValue)
 
 // > greater than
 // < smaller than
@@ -28,7 +25,7 @@ const saveValue = sayHelloToSomeone("Leah")
 // || logical OR
 
 function openOrClose(hour){
-  if(hour < 9 || hour > 17){
+  if(hour < 9 || hour > 17){ //if any of the conditions is true, it resolves to true
     console.log("we are closed")
   } else {
     console.log("we are open")
@@ -36,11 +33,3 @@ function openOrClose(hour){
 }
 
 // openOrClose(9)
-
-function myName(name){
-  console.log(name)
-  return "Karla"
-}
-
-const karla = myName()
-console.log("karla:", karla)
