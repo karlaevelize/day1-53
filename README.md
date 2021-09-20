@@ -11,13 +11,18 @@
 - code: open file or folder in VSCode
 - cat: display what is a file
 - echo: display whatever you type in the terminal
-- nano: opens a text editor in the terminal
-- node: run a file
+- nano: opens a text editor in the terminal, syntax: "nano + filename"
+- node: run a file, syntax: "node + filename.js"
 
-### JavaScript Data Types
+### Some JavaScript Data Types
 
 - String
 - Number
 - Boolean
 - Null/Undefined
 - Objects/Arrays
+
+### Return vs Console.log
+
+- Console.log will only print a value on the terminal, you can't save the value
+- Retun allows you to store and access the value later

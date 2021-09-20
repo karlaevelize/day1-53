@@ -1,6 +1,14 @@
-// const firstName = "Karla"
-// const age = 26
-// const hasPets = true
+//string
+const myName = "Karla"
+
+//template string
+const myNameIs = `My name is ${myName}`
+
+//number
+const myAge = 26
+
+//boolean
+const smokes = false
 
 //object
 const person = {
@@ -22,5 +30,3 @@ const people = [
     hasPets: false
   } 
 ]
-
-console.log(people)
